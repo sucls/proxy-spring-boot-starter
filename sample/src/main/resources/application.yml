@@ -1,0 +1,10 @@
+proxy:
+  servers:
+    Baidu:
+      path: /baidu/*
+      target: 'https://www.baidu.com'
+      name: 百度
+    Shici:
+      path: /shici/*
+      target: 'https://v1.jinrishici.com'
+      name: 诗词
